@@ -1,0 +1,9 @@
+name = "email-server"
+main = "src/index.ts"
+compatibility_date = "2022-11-12"
+
+[vars]
+# The necessary secrets are:
+# - TOKEN = ""
+# - DKIM_PRIVATE_KEY = ""
+DKIM_DOMAIN = "akashrajpurohit.com"
